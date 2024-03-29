@@ -1,0 +1,43 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.wrapper button{
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+
+.accordian {
+    width: 500px;
+}
+
+.item {
+    background: #614101;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.content {
+    color: #ffffff;
+    height: auto;
+}
